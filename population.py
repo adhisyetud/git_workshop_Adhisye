@@ -6,4 +6,5 @@ for line in lines:
     name, population = line.split(",")
     total += int(population)
 
+#Test
 print(f"Average population: {total / len(lines):,}")
